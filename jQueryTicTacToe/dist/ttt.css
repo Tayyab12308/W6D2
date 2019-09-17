@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  position: top;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 312px;
+  width: 312px;
+  padding: none;
+  position: center;
+}
+
+.square {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  list-style-type: none;
+  background-color: lightgray;
+}
+
+.square:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.played {
+  background-color: white;
+  font-size: 100px;
+  text-align: center;
+  line-height: 80px;
+}
+
+div {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+}
+
+.loser {
+  background-color: white;
+  color: red;
+}
+
+
+/* .game-over ul li {
+  background-color: none;
+  cursor: none;
+} */
